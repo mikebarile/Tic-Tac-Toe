@@ -1,0 +1,55 @@
+html, body, figure, figcaption, ul, li, h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-align: inherit;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  margin: 30px auto;
+  width: 300px;
+  border: 5px solid black;
+  }
+
+li {
+  float: left;
+  width: 90px;
+  height: 90px;
+  border: 5px solid black;
+  background: gray;
+  cursor: pointer;
+}
+
+li:hover {
+  background: yellow;
+}
+
+.x {
+  background: white;
+  text-align: center;
+}
+
+.x:before {
+  font-size: 500%;
+  content: "X";
+  color: red;
+}
+
+.o {
+  background: white;
+  text-align: center;
+}
+
+.o:before {
+  font-size: 500%;
+  content: "O";
+  color: blue;
+}
